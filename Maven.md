@@ -15,7 +15,7 @@ maven坐标概念：
         1 groupId ：公司名称或者组织名称 
         2 artifactId：项目名称  
         3 version：当前项目的版本号
-![](img\Maven仓库.png)
+![Image text](img\Maven仓库.png)
 
 在我们加入依赖时候，首先会跑到我们的本地仓库去找，如果找不到则会跑到远程仓库中去找，本地仓库的默认位置在用户的目录下的一个./m2/repository/仓库目录，可以通过修改settting.xml中的localRepository标签来进行修改
 #### **3.** Maven的依赖管理
